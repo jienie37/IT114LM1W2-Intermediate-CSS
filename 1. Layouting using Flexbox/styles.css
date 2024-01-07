@@ -53,7 +53,7 @@
 .todo-2-container{
     display: flex; flex-direction: row;/* TODO 1.2.1 Set the display to flex and flex direction to row */
     justify-content: center;/* TODO 1.2.2 Justify the content to start, then end, then center. Make sure to see how the position of the divs change*/
-    align-items: end;/* TODO 1.2.3 Align the items start, then end, then center. Make sure to see how the position of the divs change*/
+    align-items: center;/* TODO 1.2.3 Align the items start, then end, then center. Make sure to see how the position of the divs change*/
     flex-direction: column;/* TODO 1.2.4 Set the flex direction to column and play around with justify-content and align-items */
 }
 
@@ -64,7 +64,7 @@
 
 /* Select the red box */
 .todo-3-container .red{
-    align-items: first baseline;/* Todo 1.3.2 Align this item to start. Try out the other possible values. What happens? */
+    align-items: start;/* Todo 1.3.2 Align this item to start. Try out the other possible values. What happens? */
     /* Answer: changes the location of the item inside the container */
 }
 
