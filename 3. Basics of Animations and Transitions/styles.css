@@ -62,8 +62,3 @@ Set more key frames between 0% and 100%. */
     transform: translateY(-10px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
-/* bonus: apply the transition on the box shadow with different duration and timing function. This should all be in one line*/
-.todo-3-container button{
-    /* Apply transition here */
-}
